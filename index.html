@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameleon Dashboard</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar-wrapper">
+        <img class="logo" src="./assets/logo.svg" alt="company logo">
+        <div class="sidebar-items">
+            <div class="main-menu">
+                <p>Main menu</p>
+                <div class="sidebar-item active">
+                    <img src="./assets/category.svg" alt="">
+                    <h3>Dashboard</h3>
+                </div>
+                <div class="sidebar-item message">
+                    <img src="./assets/message.svg" alt="">
+                    <h3>Messages</h3>
+                    <div class="right">
+                        <span>3 new</span>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <img src="./assets/paper.svg" alt="">
+                    <h3>Reports</h3>
+                </div>
+                <div class="sidebar-item">
+                    <img src="./assets/notification.svg" alt="">
+                    <h3>Notifications</h3>
+                </div>
+                <div class="sidebar-item invoices">
+                        <img src="./assets/wallet.svg" alt="">
+                        <h3>Invoices</h3>
+                    <div class="right">
+                        <span>10 +</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="works">
+                <p>works</p>
+                <div class="sidebar-item">
+                    <img src="./assets/bookmark.svg" alt="">
+                    <h3>Bookmarks</h3>
+                </div>
+                <div class="sidebar-item">
+                    <img src="./assets/video.svg" alt="">
+                    <h3>Conferences</h3>
+                </div>
+            </div>
+            <div class="options">
+                <p>Options</p>
+                <div class="sidebar-item">
+                    <img src="./assets/setting.svg" alt="">
+                    <h3>Settings</h3>
+                </div>
+                <div class="sidebar-item">
+                    <img src="./assets/info-square.svg" alt="">
+                    <h3>About</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sidebar ends -->
+    <div class="content-wrapper">
+        <div class="navbar">
+            <div class="search-input">
+                <input type="search" class="search" placeholder="Search...">
+                <img src="./assets/search.svg" class="search-icon" alt="">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Analytics</a></li>
+                <li><a href="#">Earnings</a></li>
+                <li><a href="#">Ads Experiments</a></li>
+            </ul>
+            <div class="user">
+                <img src="./assets/notification.svg" alt="">
+                <img src="./assets/avatar.svg" alt="">
+                <div class="user-info">
+                    <h2>welcome</h2>
+                    <p>Daniel estasmos <img src="./assets/arrow-down.svg" alt=""></p>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar ends -->
+        <div class="title">
+            <h1>Dashboard</h1>
+        </div>
+        <div class="site-performance">
+            <h2>Site performance</h2>
+            <div class="date">
+                <p>Today vs 7 days ago</p>
+                <span>
+                    <img src="./assets/calender.svg" alt="">
+                    <p>June 03, 22 to July 02, 22</p>
+                </span>
+            </div>
+            <div class="site-performance-cards">
+                <div class="card active">
+                    <div class="card-header">
+                        <h2>Visitors</h2>
+                        <img src="./assets/user.svg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1>92,680</h1>
+                    </div>
+                    <div class="card-footer">
+                        <p>+3,840 (26,80%)</p>
+                        <img src="./assets/swap.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Page views</h2>
+                        <img src="./assets/show.svg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1>580.5K</h1>
+                    </div>
+                    <div class="card-footer green">
+                        <p>+210K (16,20%)</p>
+                        <img src="./assets/swap.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Bounce rates</h2>
+                        <img src="./assets/b-chart.svg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1>15.43%</h1>
+                    </div>
+                    <div class="card-footer red">
+                        <p>-0.74 (0.74%)</p>
+                        <img src="./assets/swap.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- site performance ends -->
+        <div class="site-performance">
+            <h2>Users statistics</h2>
+            <div class="date">
+                <p>Today's statistics</p>
+                <span>
+                    <img src="./assets/calender.svg" alt="">
+                    <p>June 03, 22 to July 02, 22</p>
+                </span>
+            </div>
+            <div class="site-performance-cards">
+                <div class="card bg">
+                    <div class="card-header">
+                        <h2>Unique visitors</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2>New users</h2>
+                        <img src="./assets/add-user.svg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1>17,805</h1>
+                    </div>
+                    <div class="card-footer green">
+                        <p>+1,500 (4,17%)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Online users</h2>
+                        <img src="./assets/activity.svg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1>1,846</h1>
+                    </div>
+                    <div class="card-footer green">
+                        <p>+530 (8,38%)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- user statistic ends-->
+        <img src="./assets/table.svg" alt="">
+    </div>
+
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

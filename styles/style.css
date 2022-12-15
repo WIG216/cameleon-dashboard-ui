@@ -250,3 +250,21 @@ body{
     justify-content: space-between;
     color: #DDEFFA;
 }
+
+.green{
+    color: #00DE73 !important;
+}
+.red{
+    color: #F21010 !important;
+}
+
+.red img{
+    color: red;
+}
+
+.bg{
+    background: url("../assets/chart.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

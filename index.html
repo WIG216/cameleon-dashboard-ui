@@ -10,59 +10,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="sidebar-wrapper">
-        <img class="logo" src="./assets/logo.svg" alt="company logo">
+    <!-- sidebar -->
+    <div class="sidebar-container">
+        <div class="logo">
+            <img src="./assets/logo.svg" alt="">
+        </div>
         <div class="sidebar-items">
             <div class="main-menu">
-                <p>Main menu</p>
-                <div class="sidebar-item active">
-                    <img src="./assets/category.svg" alt="">
-                    <h3>Dashboard</h3>
+                <div class="menu-title">
+                    <p>Main menu</p>
                 </div>
-                <div class="sidebar-item message">
-                    <img src="./assets/message.svg" alt="">
-                    <h3>Messages</h3>
-                    <div class="right">
-                        <span>3 new</span>
+                <div class="menu-items">
+                    <div class="menu-item active">
+                        <div class="menu-item-icon active">
+                            <img src="./assets/category.svg" alt="">
+                        </div>
+                        <span><a href="#">Dashboard</a></span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-icon">
+                            <img src="./assets/message.svg" alt="">
+                        </div>
+                        <span><a href="#">Messages</a></span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-icon">
+                            <img src="./assets/paper.svg" alt="">
+                        </div>
+                        <span><a href="#">Reports</a></span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-icon">
+                            <img src="./assets/notification.svg" alt="">
+                        </div>
+                        <span><a href="#">Notifications</a></span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-icon">
+                            <img src="./assets/wallet.svg" alt="">
+                        </div>
+                        <span><a href="#">Invoices</a></span>
                     </div>
                 </div>
-                <div class="sidebar-item">
-                    <img src="./assets/paper.svg" alt="">
-                    <h3>Reports</h3>
+            </div>
+            <div class="work-menu">
+                <div class="menu-title">
+                    <p>Works</p>
                 </div>
-                <div class="sidebar-item">
-                    <img src="./assets/notification.svg" alt="">
-                    <h3>Notifications</h3>
-                </div>
-                <div class="sidebar-item invoices">
-                        <img src="./assets/wallet.svg" alt="">
-                        <h3>Invoices</h3>
-                    <div class="right">
-                        <span>10 +</span>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-icon">
+                            <img src="./assets/bookmark.svg" alt="">
+                        </div>
+                        <span><a href="#">Bookmarks</a></span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-icon">
+                            <img src="./assets/video.svg" alt="">
+                        </div>
+                        <span><a href="#">Conferences</a></span>
                     </div>
                 </div>
-                
             </div>
-            <div class="works">
-                <p>works</p>
-                <div class="sidebar-item">
-                    <img src="./assets/bookmark.svg" alt="">
-                    <h3>Bookmarks</h3>
+            <div class="option-menu">
+                <div class="menu-title">
+                    <p>Works</p>
                 </div>
-                <div class="sidebar-item">
-                    <img src="./assets/video.svg" alt="">
-                    <h3>Conferences</h3>
-                </div>
-            </div>
-            <div class="options">
-                <p>Options</p>
-                <div class="sidebar-item">
-                    <img src="./assets/setting.svg" alt="">
-                    <h3>Settings</h3>
-                </div>
-                <div class="sidebar-item">
-                    <img src="./assets/info-square.svg" alt="">
-                    <h3>About</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-icon">
+                            <img src="./assets/setting.svg" alt="">
+                        </div>
+                        <span><a href="#">Settings</a></span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-icon">
+                            <img src="./assets/info-square.svg" alt="">
+                        </div>
+                        <span><a href="#">About</a></span>
+                    </div>
                 </div>
             </div>
         </div>

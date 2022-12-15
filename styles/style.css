@@ -11,6 +11,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 9fr;
     font-family: Inter;
+    background-color: #171B2D;
 }
 
 /* sidebar */
@@ -32,12 +33,22 @@ body{
     padding: 0 0 16px 28px;
 }
 
-.sidebar-container .sidebar-items .menu-items .menu-item{
+.sidebar-container .sidebar-items .menu-items .menu-item, .menu-item-left{
     display: flex;
     place-items: center;
     column-gap: 12px;
     font-size: 14px;
     padding: 0 0 24px 0;
+}
+
+.work-menu{
+    border-bottom: 2px dashed #55597D;
+    border-top: 2px dashed #55597D;
+
+}
+
+.work-menu, .option-menu{
+    padding-top: 36px;
 }
 
 .menu-item-icon{
@@ -54,4 +65,27 @@ body{
 
 .sidebar-container .sidebar-items .menu-items .menu-item a{
     color: #ADB3CC;
+}
+
+.menu-item-badge{
+    place-items: center;
+    display: flex;
+    column-gap: 40px;
+
+}
+
+.menu-item-right{
+    padding: 2px 6px;
+    color: #42BBFF;
+    background: #0C3247;
+    border-radius: 26px;
+}
+
+.menu-item-left{
+    padding: 0;
+}
+
+.badge{
+    background-color: #BF3931;
+    color: #ffffff;
 }

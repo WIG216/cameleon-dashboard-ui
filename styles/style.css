@@ -150,6 +150,8 @@ body{
 }
 
 .navbar .user .user-info h2{
+    text-transform: uppercase;
+    padding-bottom: 4px;
     font-size: 10px;
     color: #55597D;
 }
@@ -178,6 +180,7 @@ body{
 }
 
 .site-performance h2{
+    font-size: 20px;
     color: #ADB3CC;
 }
 

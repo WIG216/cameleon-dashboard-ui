@@ -16,47 +16,51 @@ body{
 
 /* sidebar */
 
+.sidebar-toggler{
+    display: none;
+}
+
 .sidebar-container{
     /* max-width: 264px; */
     background-color: #171B2D;
-    border-right: 2px solid #262835;
+    border-right: 0.125rem solid #262835;
 }
 
 .sidebar-container .logo{
-    padding: 50px 55px 48px 65px;
+    padding: 3.125rem 3.45rem 3rem 4.1rem;
 }
 
 .sidebar-container .sidebar-items .menu-title{
     text-transform: uppercase;
     color: #55597D;
-    font-size: 10px;
-    padding: 0 0 16px 28px;
+    font-size: 0.625rem;
+    padding: 0 0 1rem 1.75rem;
 }
 
 .sidebar-container .sidebar-items .menu-items .menu-item, .menu-item-left{
     display: flex;
     place-items: center;
-    column-gap: 12px;
-    font-size: 14px;
-    padding: 0 0 24px 0;
+    column-gap: 0.75rem;
+    font-size: 0.8rem;
+    padding: 0 0 1.5rem 0;
 }
 
 .work-menu{
-    border-bottom: 2px dashed #55597D;
-    border-top: 2px dashed #55597D;
+    border-bottom: 0.125rem dashed #55597D;
+    border-top: 0.125rem dashed #55597D;
 
 }
 
 .work-menu, .option-menu{
-    padding-top: 36px;
+    padding-top: 2.25rem;
 }
 
 .menu-item-icon{
-    padding-left: 28px;
+    padding-left: 1.75rem;
 }
 
 .sidebar-container .sidebar-items .menu-items .menu-item .active{
-    border-left: 4px solid #42BBFF;
+    border-left: 0.25rem solid #42BBFF;
 }
 
 .sidebar-container .sidebar-items .menu-items .active a{
@@ -70,15 +74,15 @@ body{
 .menu-item-badge{
     place-items: center;
     display: flex;
-    column-gap: 40px;
+    column-gap: 2.5rem;
 
 }
 
 .menu-item-right{
-    padding: 2px 6px;
+    padding: 0.125rem 0.375rem;
     color: #42BBFF;
     background: #0C3247;
-    border-radius: 26px;
+    border-radius: 1.625rem;
 }
 
 .menu-item-left{
@@ -93,9 +97,9 @@ body{
 /* Navbar starts */
 
 .navbar{
-    padding: 20px 28px;
+    padding: 1.25rem 1.75rem;
     max-width: 100vw;
-    max-height: 43px;
+    max-height: 2.69rem;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     place-items: center;
@@ -107,16 +111,16 @@ body{
 
 .search-icon{
     position: relative;
-    right: 30px;
+    right: 1.875rem;
     cursor: pointer;
 }
 
 .search{
-    padding: 11px 12px 11px 12px;
-    width: 373px;
-    height: 39px;
+    padding: 0.69rem 0.75rem 0.69rem 0.75rem;
+    width: 23.31rem;
+    height: 2.45rem;
     border: none;
-    border-radius: 8px;
+    border-radius: .5rem;
     background-color: #1D2032;
     color: #5d6384;
 
@@ -133,7 +137,7 @@ body{
 .nav-links{
     display: flex;
     column-gap: 3rem;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .nav-links a{
@@ -151,13 +155,13 @@ body{
 
 .navbar .user .user-info h2{
     text-transform: uppercase;
-    padding-bottom: 4px;
-    font-size: 10px;
+    padding-bottom: 0.25rem;
+    font-size: 0.625rem;
     color: #55597D;
 }
 
 .navbar .user .user-info p{
-    font-size: 16px;
+    font-size: 0.625rem;
     color: #ADB3CC;
     display: flex;
 }
@@ -165,27 +169,27 @@ body{
 
 /* title starts */
 .title{
-    padding: 65px 0 49px 28px;
+    padding: 4.1rem 0 3.1rem 1.75rem;
 
 }
 
 .title h1{
     color: #ADB3CC;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 /* site performance starts */
 .site-performance{
-    padding: 10px 28px;
+    padding: 0.625rem 1.75rem;
 }
 
 .site-performance h2{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #ADB3CC;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #ADB3CC;
 }
 
@@ -194,12 +198,12 @@ h2{
     display: flex;
     justify-content: space-between;
     place-items: center;
-    padding-bottom: 28px;
+    padding-bottom: 1.75rem;
 }
 
 .date > p{
-    font-size: 14px;
-    padding-top: 8px;
+    font-size: 0.875rem;
+    padding-top: 0.5rem;
 }
 
 .date span{
@@ -210,17 +214,17 @@ h2{
 }
 
 .date span p{
-    font-size: 13px;
+    font-size: 0.82rem;
 }
 
 .site-performance-cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    column-gap: 20px;
+    column-gap: 1.2rem;
 }
 
 .site-performance-cards .card{
-    border-radius: 12px;
+    border-radius: 1.2rem;
     background-color: #1A1E30;
 }
 
@@ -229,7 +233,7 @@ h2{
 }
 
 .view-all{
-    padding-left: 12px;
+    padding-left: 0.75rem;
     display: flex;
     place-items: center;
     color: #17B1EA;
@@ -240,23 +244,23 @@ h2{
 }
 
 .card .card-header{
-    padding: 24px 24px 18px 24px;
-    font-size: 20px;
+    padding: 1.5rem 1.5rem 1.025rem 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
     color: #DDEFFA;
 }
 
 .card .card-body{
-    padding-left: 24px;
+    padding-left: 1.5rem;
     color: #17B1EA;
     font-size: 58;
     font-weight: 700;
 }
 
 .card .card-footer{
-    padding: 18px 24px 24px 24px;
-    font-size: 20px;
+    padding: 1.75rem 1.5rem 1.5rem 1.5rem;
+    font-size: 1.25rem;
     display: flex;
     justify-content: space-between;
     color: #DDEFFA;
@@ -281,15 +285,15 @@ h2{
 }
 
 .user-statistics{
-    padding-top: 65px;
+    padding-top: 4.065rem;
 }
 
 .table-header{
-    padding: 60px 0 0 24px;
+    padding: 3.75rem 0 0 1.5rem;
 }
 
 .styled-table, .date{
-    padding-left: 24px;
+    padding-left: 1.5rem;
 }
 /* table */
 .table{
@@ -299,7 +303,7 @@ h2{
 .styled-table {
     color: #ADB3CC;
     border-collapse: collapse;
-    margin: 25px 28px;
+    margin: 1.56rem 1.75rem;
     font-size: 0.9em;
     /* min-width: 400px; */
     width: 100%;
@@ -313,7 +317,7 @@ h2{
 
 .styled-table th,
 .styled-table td {
-    padding: 12px 15px;
+    padding: 0.75rem 0.94rem;
 }
 
 .styled-table tbody tr, thead {
@@ -330,7 +334,7 @@ h2{
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .sidebar-container{
         display: none;
     }
@@ -355,14 +359,38 @@ h2{
 
     .site-performance h2{
         text-align: center;
-        padding: 0 0 15px 0;
+        padding: 0 0 0.94rem 0;
     }
 
     .site-performance{
-        padding: 10px 0;
+        padding: 0.625rem 0;
     }
 
     .table{
         max-width: 100vw;
+    }
+
+    .sidebar-toggler{
+        display: block;
+    }
+
+    .site-performance-cards{
+        padding: 1.8rem;
+    }
+
+    .card-header p{
+        font-size: 1rem;
+    }
+    .site-performance-cards .card-body h1{
+        font-size: 1.5rem;
+    }
+
+    .card-footer p{
+        font-size: .85rem;
+    }
+
+    .card{
+        height: 11.5rem;
+        margin-bottom: 1.8rem;
     }
 }

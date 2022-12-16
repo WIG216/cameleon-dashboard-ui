@@ -334,7 +334,7 @@ h2{
 @media (max-width: 500px) {
     .title{
         display: flex;
-        column-gap: 6rem;
+        column-gap: 30vw;
         align-items: center;
         place-items: center;
         flex-wrap: wrap-reverse;

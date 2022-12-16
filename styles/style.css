@@ -56,7 +56,7 @@ body{
 }
 
 .sidebar-container .sidebar-items .menu-items .menu-item .active{
-    border-left: 2px solid #42BBFF;
+    border-left: 4px solid #42BBFF;
 }
 
 .sidebar-container .sidebar-items .menu-items .active a{
@@ -184,6 +184,11 @@ body{
     color: #ADB3CC;
 }
 
+h2{
+    font-size: 20px;
+    color: #ADB3CC;
+}
+
 .date{
     color: #585F80;
     display: flex;
@@ -274,4 +279,53 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.user-statistics{
+    padding-top: 65px;
+}
+
+.table-header{
+    padding: 60px 0 0 24px;
+}
+
+.styled-table, .date{
+    padding-left: 24px;
+}
+/* table */
+.table{
+    width: 90%;
+    overflow-x: auto; 
+}
+.styled-table {
+    color: #ADB3CC;
+    border-collapse: collapse;
+    margin: 25px 28px;
+    font-size: 0.9em;
+    /* min-width: 400px; */
+    width: 90%;
+    overflow-x: auto; 
+}
+
+.styled-table thead tr {
+    color: #55597D;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr, thead {
+    border-bottom: 1px solid #55597D;
+}
+
+/* .styled-table tbody tr:last-of-type {
+    border-bottom: 1px solid #55597D;
+} */
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #ADB3CC;
 }

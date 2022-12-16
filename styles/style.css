@@ -344,7 +344,7 @@ h2{
     .sidebar-container{
         display: none;
         position: fixed;
-        height: 100vh;
+        height: 98vh;
     }
 
     .navbar{
@@ -403,6 +403,7 @@ h2{
     }
 
     .table-header{
+        padding: 0 ;
         text-align: center;
     }
 }

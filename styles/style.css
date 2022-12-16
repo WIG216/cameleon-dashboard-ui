@@ -94,7 +94,7 @@ body{
 
 .navbar{
     padding: 20px 28px;
-    /* max-width: 1094px; */
+    max-width: 100vw;
     max-height: 43px;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -176,6 +176,7 @@ body{
 
 /* site performance starts */
 .site-performance{
+    max-width: 100vw;
     padding: 10px 28px;
 }
 
@@ -222,6 +223,13 @@ body{
 
 .site-performance .active{
     background-color: #0329E8;
+}
+
+.view-all{
+    padding-left: 12px;
+    display: flex;
+    place-items: center;
+    color: #17B1EA;
 }
 
 .active .card-body{

@@ -342,9 +342,10 @@ h2{
     }
 
     .sidebar-container{
+        overflow-y: auto;
         display: none;
         position: fixed;
-        height: 98vh;
+        height: 100vh;
     }
 
     .navbar{

@@ -14,10 +14,6 @@ body{
     background-color: #171B2D;
 }
 
-.content-wrapper{
-    overflow-y: auto;
-    height: 100vh;
-}
 
 /* sidebar */
 
@@ -416,5 +412,12 @@ h2{
     .table-header{
         padding: 0 ;
         text-align: center;
+    }
+}
+
+@media (min-width: 700px) {
+    .content-wrapper{
+        overflow-y: auto;
+        height: 100vh;
     }
 }

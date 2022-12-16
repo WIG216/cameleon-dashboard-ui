@@ -17,7 +17,7 @@ body{
 /* sidebar */
 
 .sidebar-container{
-    max-width: 264px;
+    /* max-width: 264px; */
     background-color: #171B2D;
     border-right: 2px solid #262835;
 }
@@ -214,7 +214,6 @@ h2{
 }
 
 .site-performance-cards{
-    /* max-width: 318px; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 20px;
@@ -303,7 +302,7 @@ h2{
     margin: 25px 28px;
     font-size: 0.9em;
     /* min-width: 400px; */
-    width: 90%;
+    width: 100%;
     overflow-x: auto; 
 }
 
@@ -328,4 +327,42 @@ h2{
 .styled-table tbody tr.active-row {
     font-weight: bold;
     color: #ADB3CC;
+}
+
+
+@media (max-width: 400px) {
+    .sidebar-container{
+        display: none;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .date{
+        display: none;
+    }
+
+    .site-performance-cards{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        place-items: center;
+        max-width: 100vw;
+        overflow: hidden;
+    }
+
+    .site-performance h2{
+        text-align: center;
+        padding: 0 0 15px 0;
+    }
+
+    .site-performance{
+        padding: 10px 0;
+    }
+
+    .table{
+        max-width: 100vw;
+    }
 }

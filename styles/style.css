@@ -324,9 +324,6 @@ h2{
     border-bottom: 1px solid #55597D;
 }
 
-/* .styled-table tbody tr:last-of-type {
-    border-bottom: 1px solid #55597D;
-} */
 
 .styled-table tbody tr.active-row {
     font-weight: bold;
@@ -335,8 +332,19 @@ h2{
 
 
 @media (max-width: 500px) {
+    .title{
+        display: flex;
+        column-gap: 6rem;
+        align-items: center;
+        place-items: center;
+        flex-wrap: wrap-reverse;
+        
+    }
+
     .sidebar-container{
         display: none;
+        position: fixed;
+        height: 100vh;
     }
 
     .navbar{
@@ -392,5 +400,9 @@ h2{
     .card{
         height: 11.5rem;
         margin-bottom: 1.8rem;
+    }
+
+    .table-header{
+        text-align: center;
     }
 }
